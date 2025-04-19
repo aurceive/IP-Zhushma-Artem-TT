@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = "REST API with CRUD for User using LiteStar 2.x"
+authors = ["Aur Ceive"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+litestar = { extras = ["standard"], version = "^2" }
+litestar-granian = "^0"
+litestar-asyncpg = "^0"
+advanced-alchemy = "^0.20"
+python-dotenv = "^1"
+msgspec = "^0.18.6"
+pydantic = "^2.11.3"
+sqlalchemy = "^2.0.40"
+alembic = "^1.15.2"
+psycopg2-binary = "^2.9.10"
+
+[tool.poetry.scripts]
+start = "app.app:run"

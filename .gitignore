@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python egg metadata
+*.egg-info/
+dist/
+build/
+
+# VSCode settings (optional)
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# SQLite / DB files
+*.sqlite3
+*.db
+
+# Alembic
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+alembic/versions/script.py.mako
+
+# Migrations that shouldn’t be versioned (optional, use with care)
+# alembic/versions/
+
+# dotenv
+.env
+
+# IDE-specific
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# MacOS / Linux
+.DS_Store
+*.swo
+*.swp
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+
+# Pydantic cache
+__pydantic__/
+
+# Poetry files
+poetry.lock
